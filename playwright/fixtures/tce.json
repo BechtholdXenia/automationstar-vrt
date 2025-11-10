@@ -1,0 +1,1823 @@
+{
+    "items": {
+        "9802188": null,
+        "9515929": {
+            "resourceId": "",
+            "imo": 9515929,
+            "tce": 77221.01,
+            "status": 0,
+            "isReverseMode": false,
+            "netIncome": {
+                "total": 5789496,
+                "commission": {
+                    "percentage": 3.75,
+                    "value": 225564,
+                    "other": [
+                        {
+                            "percentage": 0.0,
+                            "value": 0,
+                            "type": "TC"
+                        }
+                    ]
+                },
+                "otherIncome": {
+                    "total": 0,
+                    "demurrageDays": 0.0,
+                    "canalDays": 0.0,
+                    "demurrageRate": 115000,
+                    "miscellaneous": 0,
+                    "ballastBonus": 0,
+                    "demurrageCost": 0.0
+                },
+                "freight": {
+                    "total": 6015061,
+                    "cargo": {
+                        "cargoType": "Crude",
+                        "cargoTypeId": 132000,
+                        "cargoQuantity": 270000
+                    },
+                    "estimatedFlatRate": 21.217147085480736,
+                    "rate": {
+                        "value": 105.00,
+                        "type": "WS"
+                    }
+                },
+                "tcRate": {
+                    "amount": 77221.009314730268922089404382
+                }
+            },
+            "costs": {
+                "bunkers": {
+                    "bunkerPortId": 3778,
+                    "bunkerPortName": "Ras Tanura",
+                    "ecaBunkerPrice": {
+                        "price": 722.43,
+                        "type": "MGO"
+                    },
+                    "nonEcaBunkerPrice": {
+                        "price": 453.56,
+                        "type": "VLSFO"
+                    },
+                    "otherVlsfo": 0.0,
+                    "otherMgo": 0.0,
+                    "otherHsfo": 0.0,
+                    "availableBunkers": [
+                        {
+                            "price": 722.43,
+                            "type": "MGO"
+                        },
+                        {
+                            "price": 453.56,
+                            "type": "VLSFO"
+                        },
+                        {
+                            "price": 356.57,
+                            "type": "HSFO"
+                        }
+                    ],
+                    "averageBunkerPrices": [
+                        {
+                            "price": 722.43,
+                            "type": "MGO"
+                        },
+                        {
+                            "price": 453.56,
+                            "type": "VLSFO"
+                        },
+                        {
+                            "price": 356.57,
+                            "type": "HSFO"
+                        }
+                    ],
+                    "bunkeringPorts": []
+                },
+                "other": 0,
+                "total": 1575852,
+                "totalConsumptionsCost": 1357082.0567277155223122000000,
+                "totalIdleConsumptionsCost": 47741.9277071825130450000000,
+                "totalOtherConsumptionCosts": 0.0,
+                "totalEuropeanAllowanceCosts": {
+                    "unitPrice": 70.00,
+                    "value": 0.0000,
+                    "ballast": {
+                        "calculationType": 0,
+                        "units": 0.0,
+                        "cost": 0.00
+                    },
+                    "laden": {
+                        "calculationType": 0,
+                        "units": 0.00,
+                        "cost": 0.0000
+                    }
+                },
+                "voyage": [
+                    {
+                        "type": "ballast",
+                        "id": "L103603",
+                        "consumption": {
+                            "consumptionRate": 50.0889693280,
+                            "cost": 374415.432718288363096,
+                            "auxiliary": {
+                                "amount": 0.000000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00000000000,
+                                "co2Emissions": 0.000000000000000
+                            }
+                        },
+                        "canalCosts": [],
+                        "europeanAllowance": {
+                            "co2Emissions": 2601.1950020121601632640,
+                            "emissionsToSurrenderPercentage": 0.0,
+                            "emissionsToSurrender": 0.0,
+                            "units": 0.0,
+                            "cost": 70.00
+                        }
+                    },
+                    {
+                        "type": "stop",
+                        "id": "E41{8.8847, 73.2435}",
+                        "costs": {
+                            "total": 0,
+                            "chartererAccount": 0,
+                            "ownerAccount": 0
+                        },
+                        "consumptions": {
+                            "idle": {
+                                "amount": 12.500000,
+                                "type": "VLSFO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 25536.3729166666855650000000,
+                                "co2Emissions": 177.41011666666679796000000000
+                            },
+                            "operation": {
+                                "amount": 0.0,
+                                "type": "VLSFO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00,
+                                "co2Emissions": 0.000000
+                            },
+                            "auxiliary": {
+                                "amount": 0.000000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00,
+                                "co2Emissions": 0.000000
+                            }
+                        },
+                        "europeanAllowance": {
+                            "co2Emissions": 0.0,
+                            "emissionsToSurrenderPercentage": 0.0,
+                            "emissionsToSurrender": 0.00,
+                            "units": 0.0,
+                            "cost": 70.00
+                        }
+                    },
+                    {
+                        "type": "ballast",
+                        "id": "L41{8.8847, 73.2435}",
+                        "consumption": {
+                            "consumptionRate": 50.0889693280,
+                            "cost": 139604.278745065193600,
+                            "auxiliary": {
+                                "amount": 0.000000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00000000000,
+                                "co2Emissions": 0.000000000000000
+                            }
+                        },
+                        "canalCosts": [],
+                        "europeanAllowance": {
+                            "co2Emissions": 1124.1495234675836067200000000,
+                            "emissionsToSurrenderPercentage": 0.0,
+                            "emissionsToSurrender": 0.0,
+                            "units": 0.0,
+                            "cost": 70.00
+                        }
+                    },
+                    {
+                        "type": "load",
+                        "id": "E",
+                        "costs": {
+                            "total": 152901,
+                            "chartererAccount": 70654,
+                            "ownerAccount": 82247,
+                            "details": {
+                                "portCanal": 0,
+                                "towage": 55856,
+                                "berth": 0,
+                                "portDues": 533,
+                                "lightHouse": 660,
+                                "mooring": 0,
+                                "pilotage": 19689,
+                                "quay": 0,
+                                "anchorage": 267,
+                                "agencyFees": 1946,
+                                "other": 3297,
+                                "exposedInfo": ""
+                            }
+                        },
+                        "consumptions": {
+                            "idle": {
+                                "amount": 12.500000,
+                                "type": "VLSFO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 22205.5547905158274800000000,
+                                "co2Emissions": 154.26975784263822432000000000
+                            },
+                            "operation": {
+                                "amount": 25.000000,
+                                "type": "VLSFO",
+                                "consumptionMode": "Tons",
+                                "cost": 11339.00000000,
+                                "co2Emissions": 78.776000000000
+                            },
+                            "auxiliary": {
+                                "amount": 0.000000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00000000000,
+                                "co2Emissions": 0.000000000000000
+                            }
+                        },
+                        "europeanAllowance": {
+                            "co2Emissions": 78.776000000000,
+                            "emissionsToSurrenderPercentage": 0.0,
+                            "emissionsToSurrender": 0.0,
+                            "units": 0.0,
+                            "cost": 70.00
+                        }
+                    },
+                    {
+                        "type": "laden",
+                        "id": "L",
+                        "consumption": {
+                            "consumptionRate": 73.3490236686,
+                            "cost": 675616.9175571794525712,
+                            "auxiliary": {
+                                "amount": 0.000000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.000000000000,
+                                "co2Emissions": 0.0000000000000000
+                            }
+                        },
+                        "canalCosts": [],
+                        "europeanAllowance": {
+                            "co2Emissions": 4693.74709387815226702080,
+                            "emissionsToSurrenderPercentage": 0.0,
+                            "emissionsToSurrender": 0.0,
+                            "units": 0.0,
+                            "cost": 70.00
+                        }
+                    },
+                    {
+                        "type": "discharge",
+                        "id": "E",
+                        "costs": {
+                            "total": 136523,
+                            "chartererAccount": 0,
+                            "ownerAccount": 136523,
+                            "details": {
+                                "portCanal": 0,
+                                "towage": 13484,
+                                "berth": 7389,
+                                "portDues": 52850,
+                                "lightHouse": 0,
+                                "mooring": 0,
+                                "pilotage": 21140,
+                                "quay": 0,
+                                "anchorage": 1478,
+                                "agencyFees": 36383,
+                                "other": 3799,
+                                "exposedInfo": "Chinese Tonnage Dues basis 30 days, taking into account the vessel's flag."
+                            }
+                        },
+                        "consumptions": {
+                            "idle": {
+                                "amount": 12.500000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00000000,
+                                "co2Emissions": 0.000000000000
+                            },
+                            "operation": {
+                                "amount": 150.000000,
+                                "type": "MGO",
+                                "consumptionMode": "Tons",
+                                "cost": 108364.50000000,
+                                "co2Emissions": 480.900000000000
+                            },
+                            "auxiliary": {
+                                "amount": 0.000000,
+                                "type": "MGO",
+                                "consumptionMode": "TonsPerDay",
+                                "cost": 0.00000000000,
+                                "co2Emissions": 0.000000000000000
+                            }
+                        },
+                        "europeanAllowance": {
+                            "co2Emissions": 480.900000000000,
+                            "emissionsToSurrenderPercentage": 0.0,
+                            "emissionsToSurrender": 0.0,
+                            "units": 0.0,
+                            "cost": 70.00
+                        }
+                    }
+                ],
+                "fuelEu": {
+                    "penalty": 0.0
+                }
+            },
+            "fuelEu": {
+                "energyEmissions": [
+                    {
+                        "fuelType": "VLSFO",
+                        "greenHouseGasWellToWheel": 91.2512,
+                        "emissions": [
+                            {
+                                "fragmentId": "L103603",
+                                "tons": 881.80572721349997500000,
+                                "energySubjectedToEuPenalty": {
+                                    "unit": "MJ",
+                                    "value": 0.0
+                                },
+                                "euImpactFactor": 0.0,
+                                "complianceBalance": {
+                                    "unit": "gCO2eq",
+                                    "value": 0.0000
+                                }
+                            },
+                            {
+                                "fragmentId": "L41{8.8847, 73.2435}",
+                                "tons": 307.7967165205600,
+                                "energySubjectedToEuPenalty": {
+                                    "unit": "MJ",
+                                    "value": 0.0
+                                },
+                                "euImpactFactor": 0.0,
+                                "complianceBalance": {
+                                    "unit": "gCO2eq",
+                                    "value": 0.0000
+                                }
+                            },
+                            {
+                                "fragmentId": "E",
+                                "tons": 73.95836226853300000000,
+                                "energySubjectedToEuPenalty": {
+                                    "unit": "MJ",
+                                    "value": 0.0
+                                },
+                                "euImpactFactor": 0.0,
+                                "complianceBalance": {
+                                    "unit": "gCO2eq",
+                                    "value": 0.0000
+                                }
+                            },
+                            {
+                                "fragmentId": "L",
+                                "tons": 1489.58664246666252,
+                                "energySubjectedToEuPenalty": {
+                                    "unit": "MJ",
+                                    "value": 0.0
+                                },
+                                "euImpactFactor": 0.0,
+                                "complianceBalance": {
+                                    "unit": "gCO2eq",
+                                    "value": 0.0000
+                                }
+                            }
+                        ],
+                        "totals": {
+                            "tons": 2753.14744846925549500000,
+                            "energySubjectedToEuPenalty": {
+                                "unit": "MJ",
+                                "value": 0.0
+                            },
+                            "complianceBalance": {
+                                "unit": "gCO2eq",
+                                "value": 0.0000
+                            }
+                        },
+                        "voyageGreenHouseGas": 0.0
+                    },
+                    {
+                        "fuelType": "MGO",
+                        "greenHouseGasWellToWheel": 90.6319,
+                        "emissions": [
+                            {
+                                "fragmentId": "E",
+                                "tons": 150.000000000,
+                                "energySubjectedToEuPenalty": {
+                                    "unit": "MJ",
+                                    "value": 0.0
+                                },
+                                "euImpactFactor": 0.0,
+                                "complianceBalance": {
+                                    "unit": "gCO2eq",
+                                    "value": 0.0000
+                                }
+                            }
+                        ],
+                        "totals": {
+                            "tons": 150.000000000,
+                            "energySubjectedToEuPenalty": {
+                                "unit": "MJ",
+                                "value": 0.0
+                            },
+                            "complianceBalance": {
+                                "unit": "gCO2eq",
+                                "value": 0.0000
+                            }
+                        },
+                        "voyageGreenHouseGas": 0.0
+                    }
+                ],
+                "greenHouseGasYearLimit": {
+                    "year": 2025,
+                    "unit": "gCO2eq/MJ",
+                    "value": 89.34
+                },
+                "totalComplianceBalance": {
+                    "unit": "gCO2eq",
+                    "value": 0.000000000000000000
+                },
+                "totalGreenHouseGasWellToWheel": 0.0,
+                "penaltyRate": {
+                    "unit": "EUR/MJ",
+                    "value": 0.05853658537
+                },
+                "penalty": {
+                    "unit": "USD",
+                    "value": 0.0
+                }
+            },
+            "co2Emissions": {
+                "hsfo": 0.000000,
+                "vlsfo": 8675.277736024562834964800000,
+                "mgo": 480.9000000000000000,
+                "total": 9156.177736024562834964800000
+            },
+            "generalInfo": {
+                "isPiracyStrategyEnabled": false,
+                "isSecaMinimized": false,
+                "isOpenPortOrDateEdited": false,
+                "voyageEstimationMode": "Laycan",
+                "laycanStart": "2025-11-19T00:00:00Z",
+                "laycanEnd": "2025-11-19T23:59:59.999Z",
+                "idleDays": 3.91666898148264,
+                "historicalIdleDays": 4.50416666666667,
+                "totalStopDays": 0.0,
+                "totalCanalDays": 0.0,
+                "totalDemurrageDays": 0.0,
+                "totalDuration": 54.5660356481482,
+                "latestVesselState": {
+                    "latitude": 8.8847,
+                    "longitude": 73.2435,
+                    "lastMovementDateTimeUTC": "2025-11-08T22:30:49Z",
+                    "voyageStatus": "Ballast",
+                    "draught": 9.50,
+                    "speed": 10.40,
+                    "heading": 305.00,
+                    "destination": "UAE FUJAIRAH"
+                },
+                "isInDrydock": false,
+                "voyage": {
+                    "totalBallastDistance": 6290,
+                    "totalLadenDistance": 5760,
+                    "portLaytimeMode": 1,
+                    "totalPortLaytime": 84,
+                    "voyageFragments": [
+                        {
+                            "id": "E103603",
+                            "type": "openPort",
+                            "autoGenerated": false,
+                            "distance": 0,
+                            "portId": 3603,
+                            "name": "Yosu",
+                            "geoAsset": {
+                                "parentPort": {
+                                    "id": 3603,
+                                    "name": "Yosu"
+                                }
+                            },
+                            "openDate": "2025-10-19T23:48:43Z",
+                            "country": {
+                                "id": 129,
+                                "name": "Korea, Republic of"
+                            },
+                            "location": {
+                                "latitude": 34.7651444989447,
+                                "longitude": 127.828062828698
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": false
+                        },
+                        {
+                            "id": "L103603",
+                            "type": "ballast",
+                            "start": "Yosu",
+                            "startId": "E103603",
+                            "stop": "{8.8847, 73.2435}",
+                            "stopId": "E41{8.8847, 73.2435}",
+                            "autoGenerated": false,
+                            "speed": {
+                                "value": 12.0,
+                                "mode": "Standard"
+                            },
+                            "distance": 4520,
+                            "duration": {
+                                "totalDays": 15.442,
+                                "weatherDelayPercentage": 0.0,
+                                "totalSecaDays": 0.0,
+                                "totalNonSecaDays": 0.0,
+                                "laytime": 0.0,
+                                "rate": 0,
+                                "turnTime": 0.0,
+                                "extraTime": 0.0,
+                                "demurrageDays": 0.0,
+                                "idleTime": 0.0,
+                                "isCalculatedByRate": false,
+                                "termsFactor": 0.0,
+                                "termsOrder": 0.0,
+                                "totalTime": 0.0,
+                                "totalTimeInDays": 0.0
+                            },
+                            "openDate": "0001-01-01T00:00:00Z",
+                            "route": {
+                                "distance": 4520.74,
+                                "distanceSeca": 0.0,
+                                "distanceHra": 0.0,
+                                "distanceJwla": 0.0,
+                                "distanceNonSeca": 4520.74,
+                                "bypassableRoutingPointsToAlternative": {},
+                                "pathIdToBypassedRoutingPoints": {},
+                                "paths": [
+                                    {
+                                        "coordinates": [
+                                            {
+                                                "latitude": 34.8278,
+                                                "longitude": 127.7815
+                                            },
+                                            {
+                                                "latitude": 34.5788,
+                                                "longitude": 127.9405
+                                            },
+                                            {
+                                                "latitude": 34.7525,
+                                                "longitude": 127.7864
+                                            },
+                                            {
+                                                "latitude": 34.2291,
+                                                "longitude": 127.9409
+                                            },
+                                            {
+                                                "latitude": 33.829,
+                                                "longitude": 127.9552
+                                            },
+                                            {
+                                                "latitude": 31.9085,
+                                                "longitude": 127.4275
+                                            },
+                                            {
+                                                "latitude": 31.7592,
+                                                "longitude": 127.3825
+                                            },
+                                            {
+                                                "latitude": 29.7754,
+                                                "longitude": 126.386
+                                            },
+                                            {
+                                                "latitude": 29.0578,
+                                                "longitude": 126.022
+                                            },
+                                            {
+                                                "latitude": 28.2999,
+                                                "longitude": 125.6407
+                                            },
+                                            {
+                                                "latitude": 27.5903,
+                                                "longitude": 125.192
+                                            },
+                                            {
+                                                "latitude": 26.994,
+                                                "longitude": 124.8028
+                                            },
+                                            {
+                                                "latitude": 26.2157,
+                                                "longitude": 124.3051
+                                            },
+                                            {
+                                                "latitude": 25.9537,
+                                                "longitude": 124.1718
+                                            },
+                                            {
+                                                "latitude": 24.2545,
+                                                "longitude": 123.2493
+                                            },
+                                            {
+                                                "latitude": 23.4943,
+                                                "longitude": 122.8622
+                                            },
+                                            {
+                                                "latitude": 23.2194,
+                                                "longitude": 122.7243
+                                            },
+                                            {
+                                                "latitude": 21.3432,
+                                                "longitude": 121.7734
+                                            },
+                                            {
+                                                "latitude": 20.9587,
+                                                "longitude": 121.2959
+                                            },
+                                            {
+                                                "latitude": 20.6757,
+                                                "longitude": 120.9804
+                                            },
+                                            {
+                                                "latitude": 19.7757,
+                                                "longitude": 119.9253
+                                            },
+                                            {
+                                                "latitude": 19.6202,
+                                                "longitude": 119.7436
+                                            },
+                                            {
+                                                "latitude": 14.5094,
+                                                "longitude": 114.4034
+                                            },
+                                            {
+                                                "latitude": 14.4627,
+                                                "longitude": 114.3663
+                                            },
+                                            {
+                                                "latitude": 12.7574,
+                                                "longitude": 113.1061
+                                            },
+                                            {
+                                                "latitude": 12.0049,
+                                                "longitude": 112.5766
+                                            },
+                                            {
+                                                "latitude": 11.3612,
+                                                "longitude": 112.0874
+                                            },
+                                            {
+                                                "latitude": 10.7855,
+                                                "longitude": 111.6516
+                                            },
+                                            {
+                                                "latitude": 10.151,
+                                                "longitude": 111.2005
+                                            },
+                                            {
+                                                "latitude": 9.5442,
+                                                "longitude": 110.7657
+                                            },
+                                            {
+                                                "latitude": 8.9514,
+                                                "longitude": 110.3325
+                                            },
+                                            {
+                                                "latitude": 8.3162,
+                                                "longitude": 109.8784
+                                            },
+                                            {
+                                                "latitude": 7.6416,
+                                                "longitude": 109.3901
+                                            },
+                                            {
+                                                "latitude": 6.9452,
+                                                "longitude": 108.8954
+                                            },
+                                            {
+                                                "latitude": 6.1602,
+                                                "longitude": 108.2991
+                                            },
+                                            {
+                                                "latitude": 5.5979,
+                                                "longitude": 107.5815
+                                            },
+                                            {
+                                                "latitude": 5.0373,
+                                                "longitude": 106.8849
+                                            },
+                                            {
+                                                "latitude": 4.1541,
+                                                "longitude": 105.83
+                                            },
+                                            {
+                                                "latitude": 3.5516,
+                                                "longitude": 105.4863
+                                            },
+                                            {
+                                                "latitude": 2.3036,
+                                                "longitude": 104.9016
+                                            },
+                                            {
+                                                "latitude": 1.5079,
+                                                "longitude": 104.5395
+                                            },
+                                            {
+                                                "latitude": 1.1718,
+                                                "longitude": 103.7944
+                                            },
+                                            {
+                                                "latitude": 1.4624,
+                                                "longitude": 103.175
+                                            },
+                                            {
+                                                "latitude": 1.9053,
+                                                "longitude": 102.3673
+                                            },
+                                            {
+                                                "latitude": 2.4609,
+                                                "longitude": 101.639
+                                            },
+                                            {
+                                                "latitude": 2.8874,
+                                                "longitude": 100.9392
+                                            },
+                                            {
+                                                "latitude": 3.4828,
+                                                "longitude": 100.3385
+                                            },
+                                            {
+                                                "latitude": 3.9792,
+                                                "longitude": 99.7985
+                                            },
+                                            {
+                                                "latitude": 4.3278,
+                                                "longitude": 99.4129
+                                            },
+                                            {
+                                                "latitude": 5.1976,
+                                                "longitude": 98.4558
+                                            },
+                                            {
+                                                "latitude": 5.4457,
+                                                "longitude": 98.1897
+                                            },
+                                            {
+                                                "latitude": 6.0406,
+                                                "longitude": 96.3494
+                                            },
+                                            {
+                                                "latitude": 6.0572,
+                                                "longitude": 96.2999
+                                            },
+                                            {
+                                                "latitude": 6.4246,
+                                                "longitude": 94.7939
+                                            },
+                                            {
+                                                "latitude": 6.4145,
+                                                "longitude": 94.6248
+                                            },
+                                            {
+                                                "latitude": 6.2339,
+                                                "longitude": 90.4851
+                                            },
+                                            {
+                                                "latitude": 6.2076,
+                                                "longitude": 89.7552
+                                            },
+                                            {
+                                                "latitude": 6.0998,
+                                                "longitude": 87.199
+                                            },
+                                            {
+                                                "latitude": 5.913,
+                                                "longitude": 82.5488
+                                            },
+                                            {
+                                                "latitude": 5.8632,
+                                                "longitude": 81.6713
+                                            },
+                                            {
+                                                "latitude": 5.8239,
+                                                "longitude": 80.7448
+                                            },
+                                            {
+                                                "latitude": 5.834,
+                                                "longitude": 79.8431
+                                            },
+                                            {
+                                                "latitude": 5.9068,
+                                                "longitude": 79.1372
+                                            },
+                                            {
+                                                "latitude": 6.9164,
+                                                "longitude": 76.8971
+                                            },
+                                            {
+                                                "latitude": 6.9706,
+                                                "longitude": 76.7938
+                                            },
+                                            {
+                                                "latitude": 7.9567,
+                                                "longitude": 74.961
+                                            },
+                                            {
+                                                "latitude": 8.3024,
+                                                "longitude": 74.3053
+                                            },
+                                            {
+                                                "latitude": 8.6522,
+                                                "longitude": 73.6622
+                                            },
+                                            {
+                                                "latitude": 8.8847,
+                                                "longitude": 73.2435
+                                            }
+                                        ],
+                                        "routingPoints": []
+                                    }
+                                ]
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": true
+                        },
+                        {
+                            "id": "E41{8.8847, 73.2435}",
+                            "type": "stop",
+                            "arrivalTime": "2025-11-08T22:31:11.8+00:00",
+                            "sailingTime": "2025-11-08T22:31:11.8+00:00",
+                            "autoGenerated": false,
+                            "distance": 0,
+                            "duration": {
+                                "totalDays": 0.0,
+                                "weatherDelayPercentage": 0.0,
+                                "totalSecaDays": 0.0,
+                                "totalNonSecaDays": 0.0,
+                                "laytime": 0.0,
+                                "rate": 0,
+                                "turnTime": 0.0,
+                                "extraTime": 0.0,
+                                "demurrageDays": 0.0,
+                                "idleTime": 4.50416666666667,
+                                "isCalculatedByRate": false,
+                                "termsFactor": 0.0,
+                                "termsOrder": 0.0,
+                                "totalTime": 0.0,
+                                "totalTimeInDays": 0.0
+                            },
+                            "openDate": "0001-01-01T00:00:00Z",
+                            "location": {
+                                "latitude": 8.8847,
+                                "longitude": 73.2435
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": true
+                        },
+                        {
+                            "id": "L41{8.8847, 73.2435}",
+                            "type": "ballast",
+                            "start": "{8.8847, 73.2435}",
+                            "startId": "E41{8.8847, 73.2435}",
+                            "stop": "Ras Tanura",
+                            "stopId": "E",
+                            "autoGenerated": false,
+                            "speed": {
+                                "value": 12.0,
+                                "mode": "Standard"
+                            },
+                            "distance": 1769,
+                            "duration": {
+                                "totalDays": 6.145,
+                                "weatherDelayPercentage": 0.0,
+                                "totalSecaDays": 0.0,
+                                "totalNonSecaDays": 6.145,
+                                "laytime": 0.0,
+                                "rate": 0,
+                                "turnTime": 0.0,
+                                "extraTime": 0.0,
+                                "demurrageDays": 0.0,
+                                "idleTime": 0.0,
+                                "isCalculatedByRate": false,
+                                "termsFactor": 0.0,
+                                "termsOrder": 0.0,
+                                "totalTime": 0.0,
+                                "totalTimeInDays": 0.0
+                            },
+                            "openDate": "0001-01-01T00:00:00Z",
+                            "route": {
+                                "distance": 1769.75,
+                                "distanceSeca": 0.0,
+                                "distanceHra": 0.0,
+                                "distanceJwla": 629.31,
+                                "distanceNonSeca": 1769.75,
+                                "bypassableRoutingPointsToAlternative": {},
+                                "pathIdToBypassedRoutingPoints": {},
+                                "paths": [
+                                    {
+                                        "coordinates": [
+                                            {
+                                                "latitude": 8.88,
+                                                "longitude": 73.24
+                                            },
+                                            {
+                                                "latitude": 18.80325,
+                                                "longitude": 65.051933
+                                            },
+                                            {
+                                                "latitude": 18.85579,
+                                                "longitude": 64.98405
+                                            },
+                                            {
+                                                "latitude": 22.96417,
+                                                "longitude": 60.0915
+                                            },
+                                            {
+                                                "latitude": 22.983295,
+                                                "longitude": 60.039955
+                                            },
+                                            {
+                                                "latitude": 24.842242,
+                                                "longitude": 58.13358
+                                            },
+                                            {
+                                                "latitude": 24.849333,
+                                                "longitude": 58.025667
+                                            },
+                                            {
+                                                "latitude": 26.418071,
+                                                "longitude": 56.570771
+                                            },
+                                            {
+                                                "latitude": 26.438331,
+                                                "longitude": 56.525331
+                                            },
+                                            {
+                                                "latitude": 26.447955,
+                                                "longitude": 56.360775
+                                            },
+                                            {
+                                                "latitude": 26.341283,
+                                                "longitude": 55.393317
+                                            },
+                                            {
+                                                "latitude": 26.33024,
+                                                "longitude": 55.33281
+                                            },
+                                            {
+                                                "latitude": 26.320667,
+                                                "longitude": 55.3158
+                                            },
+                                            {
+                                                "latitude": 26.30728,
+                                                "longitude": 55.13472
+                                            },
+                                            {
+                                                "latitude": 26.323238,
+                                                "longitude": 54.962063
+                                            },
+                                            {
+                                                "latitude": 26.77,
+                                                "longitude": 50.15
+                                            }
+                                        ],
+                                        "routingPoints": [
+                                            {
+                                                "name": "JWLASomalia",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 763.31,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 525.19,
+                                                "heading": 311.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 22.9641704559326,
+                                                    "longitude": 60.0914993286133
+                                                }
+                                            },
+                                            {
+                                                "name": "JWLAAGPakistan",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 1137.37,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": true,
+                                                "distance": 629.31,
+                                                "heading": 316.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 24.8422412872314,
+                                                    "longitude": 58.1335792541504
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": false
+                        },
+                        {
+                            "id": "E",
+                            "type": "load",
+                            "arrivalTime": "2025-11-15T01:59:59.7999999+00:00",
+                            "sailingTime": "2025-11-21T02:59:59.9999999+00:00",
+                            "autoGenerated": false,
+                            "distance": 0,
+                            "duration": {
+                                "totalDays": 0.0,
+                                "weatherDelayPercentage": 0.0,
+                                "totalSecaDays": 0.0,
+                                "totalNonSecaDays": 0.0,
+                                "laytime": 42.0,
+                                "rate": 154285,
+                                "turnTime": 9.0,
+                                "extraTime": 0.0,
+                                "demurrageDays": 0.0,
+                                "idleTime": 3.91666898148264,
+                                "isCalculatedByRate": false,
+                                "termsFactor": 1.00000000,
+                                "termsOrder": 1.0,
+                                "terms": "SHINC",
+                                "termsDescription": "Sundays and holidays included",
+                                "totalTime": 51.0,
+                                "totalTimeInDays": 2.125,
+                                "quantityForOperation": 270000.0,
+                                "cargoTransferRateUnit": 1
+                            },
+                            "portId": 3778,
+                            "name": "Ras Tanura",
+                            "geoAsset": {
+                                "parentPort": {
+                                    "id": 3778,
+                                    "name": "Ras Tanura"
+                                }
+                            },
+                            "openDate": "0001-01-01T00:00:00Z",
+                            "country": {
+                                "id": 200,
+                                "name": "Saudi Arabia"
+                            },
+                            "location": {
+                                "latitude": 26.76584,
+                                "longitude": 50.14778
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": false
+                        },
+                        {
+                            "id": "L",
+                            "type": "laden",
+                            "start": "Ras Tanura",
+                            "startId": "E",
+                            "stop": "Ningbo",
+                            "stopId": "E",
+                            "autoGenerated": false,
+                            "speed": {
+                                "value": 13.0,
+                                "mode": "Standard"
+                            },
+                            "distance": 5760,
+                            "duration": {
+                                "totalDays": 20.3082,
+                                "weatherDelayPercentage": 10.0,
+                                "totalSecaDays": 0.0,
+                                "totalNonSecaDays": 20.3082,
+                                "laytime": 0.0,
+                                "rate": 0,
+                                "turnTime": 0.0,
+                                "extraTime": 0.0,
+                                "demurrageDays": 0.0,
+                                "idleTime": 0.0,
+                                "isCalculatedByRate": false,
+                                "termsFactor": 0.0,
+                                "termsOrder": 0.0,
+                                "totalTime": 0.0,
+                                "totalTimeInDays": 0.0
+                            },
+                            "openDate": "0001-01-01T00:00:00Z",
+                            "route": {
+                                "distance": 5760.26,
+                                "distanceSeca": 0.0,
+                                "distanceHra": 0.0,
+                                "distanceJwla": 622.17,
+                                "distanceNonSeca": 5760.26,
+                                "bypassableRoutingPointsToAlternative": {},
+                                "pathIdToBypassedRoutingPoints": {},
+                                "paths": [
+                                    {
+                                        "coordinates": [
+                                            {
+                                                "latitude": 26.77,
+                                                "longitude": 50.15
+                                            },
+                                            {
+                                                "latitude": 26.30728,
+                                                "longitude": 55.13472
+                                            },
+                                            {
+                                                "latitude": 26.320667,
+                                                "longitude": 55.3158
+                                            },
+                                            {
+                                                "latitude": 26.33024,
+                                                "longitude": 55.33281
+                                            },
+                                            {
+                                                "latitude": 26.341283,
+                                                "longitude": 55.393317
+                                            },
+                                            {
+                                                "latitude": 26.447955,
+                                                "longitude": 56.360775
+                                            },
+                                            {
+                                                "latitude": 26.438331,
+                                                "longitude": 56.525331
+                                            },
+                                            {
+                                                "latitude": 26.418071,
+                                                "longitude": 56.570771
+                                            },
+                                            {
+                                                "latitude": 26.366948,
+                                                "longitude": 56.660273
+                                            },
+                                            {
+                                                "latitude": 24.933281,
+                                                "longitude": 57.9148
+                                            },
+                                            {
+                                                "latitude": 24.849333,
+                                                "longitude": 58.025667
+                                            },
+                                            {
+                                                "latitude": 23.057652,
+                                                "longitude": 59.965498
+                                            },
+                                            {
+                                                "latitude": 22.983295,
+                                                "longitude": 60.039955
+                                            },
+                                            {
+                                                "latitude": 18.895583,
+                                                "longitude": 64.90965
+                                            },
+                                            {
+                                                "latitude": 18.85579,
+                                                "longitude": 64.98405
+                                            },
+                                            {
+                                                "latitude": 9.02655,
+                                                "longitude": 75.935117
+                                            },
+                                            {
+                                                "latitude": 6.267569,
+                                                "longitude": 79.718199
+                                            },
+                                            {
+                                                "latitude": 5.816933,
+                                                "longitude": 80.4656
+                                            },
+                                            {
+                                                "latitude": 5.959348,
+                                                "longitude": 95.70821
+                                            },
+                                            {
+                                                "latitude": 5.510648,
+                                                "longitude": 97.415472
+                                            },
+                                            {
+                                                "latitude": 3.516433,
+                                                "longitude": 100.139793
+                                            },
+                                            {
+                                                "latitude": 3.483283,
+                                                "longitude": 100.23025
+                                            },
+                                            {
+                                                "latitude": 3.053067,
+                                                "longitude": 100.585533
+                                            },
+                                            {
+                                                "latitude": 3.002037,
+                                                "longitude": 100.638847
+                                            },
+                                            {
+                                                "latitude": 1.490587,
+                                                "longitude": 103.016393
+                                            },
+                                            {
+                                                "latitude": 1.431313,
+                                                "longitude": 103.123613
+                                            },
+                                            {
+                                                "latitude": 1.431313,
+                                                "longitude": 103.123613
+                                            },
+                                            {
+                                                "latitude": 1.383567,
+                                                "longitude": 103.171867
+                                            },
+                                            {
+                                                "latitude": 1.351922,
+                                                "longitude": 103.2697
+                                            },
+                                            {
+                                                "latitude": 1.287205,
+                                                "longitude": 103.28667
+                                            },
+                                            {
+                                                "latitude": 1.271397,
+                                                "longitude": 103.305758
+                                            },
+                                            {
+                                                "latitude": 1.270248,
+                                                "longitude": 103.3094
+                                            },
+                                            {
+                                                "latitude": 1.2128,
+                                                "longitude": 103.386047
+                                            },
+                                            {
+                                                "latitude": 1.191308,
+                                                "longitude": 103.4046
+                                            },
+                                            {
+                                                "latitude": 1.189975,
+                                                "longitude": 103.4053
+                                            },
+                                            {
+                                                "latitude": 1.183745,
+                                                "longitude": 103.411253
+                                            },
+                                            {
+                                                "latitude": 1.181527,
+                                                "longitude": 103.422735
+                                            },
+                                            {
+                                                "latitude": 1.163933,
+                                                "longitude": 103.445583
+                                            },
+                                            {
+                                                "latitude": 1.152837,
+                                                "longitude": 103.466962
+                                            },
+                                            {
+                                                "latitude": 1.139783,
+                                                "longitude": 103.4867
+                                            },
+                                            {
+                                                "latitude": 1.073887,
+                                                "longitude": 103.660846
+                                            },
+                                            {
+                                                "latitude": 1.068333,
+                                                "longitude": 103.677
+                                            },
+                                            {
+                                                "latitude": 1.073795,
+                                                "longitude": 103.68216
+                                            },
+                                            {
+                                                "latitude": 1.073598,
+                                                "longitude": 103.697888
+                                            },
+                                            {
+                                                "latitude": 1.119683,
+                                                "longitude": 103.7545
+                                            },
+                                            {
+                                                "latitude": 1.126767,
+                                                "longitude": 103.7632
+                                            },
+                                            {
+                                                "latitude": 1.127952,
+                                                "longitude": 103.770882
+                                            },
+                                            {
+                                                "latitude": 1.148132,
+                                                "longitude": 103.7838
+                                            },
+                                            {
+                                                "latitude": 1.149356,
+                                                "longitude": 103.797496
+                                            },
+                                            {
+                                                "latitude": 1.150545,
+                                                "longitude": 103.816495
+                                            },
+                                            {
+                                                "latitude": 1.167318,
+                                                "longitude": 103.823425
+                                            },
+                                            {
+                                                "latitude": 1.17142,
+                                                "longitude": 103.8301
+                                            },
+                                            {
+                                                "latitude": 1.182807,
+                                                "longitude": 103.837395
+                                            },
+                                            {
+                                                "latitude": 1.191167,
+                                                "longitude": 103.852987
+                                            },
+                                            {
+                                                "latitude": 1.193133,
+                                                "longitude": 103.8566
+                                            },
+                                            {
+                                                "latitude": 1.192493,
+                                                "longitude": 103.862451
+                                            },
+                                            {
+                                                "latitude": 1.196163,
+                                                "longitude": 103.871581
+                                            },
+                                            {
+                                                "latitude": 1.20602,
+                                                "longitude": 103.887475
+                                            },
+                                            {
+                                                "latitude": 1.211058,
+                                                "longitude": 103.900326
+                                            },
+                                            {
+                                                "latitude": 1.2175,
+                                                "longitude": 103.9163
+                                            },
+                                            {
+                                                "latitude": 1.2196,
+                                                "longitude": 103.923605
+                                            },
+                                            {
+                                                "latitude": 1.234366,
+                                                "longitude": 104.009751
+                                            },
+                                            {
+                                                "latitude": 1.236483,
+                                                "longitude": 104.018583
+                                            },
+                                            {
+                                                "latitude": 1.237528,
+                                                "longitude": 104.024
+                                            },
+                                            {
+                                                "latitude": 1.24009,
+                                                "longitude": 104.0303
+                                            },
+                                            {
+                                                "latitude": 1.239927,
+                                                "longitude": 104.0352
+                                            },
+                                            {
+                                                "latitude": 1.24484,
+                                                "longitude": 104.055578
+                                            },
+                                            {
+                                                "latitude": 1.24766,
+                                                "longitude": 104.0632
+                                            },
+                                            {
+                                                "latitude": 1.250133,
+                                                "longitude": 104.0732
+                                            },
+                                            {
+                                                "latitude": 1.250503,
+                                                "longitude": 104.081
+                                            },
+                                            {
+                                                "latitude": 1.255133,
+                                                "longitude": 104.1122
+                                            },
+                                            {
+                                                "latitude": 1.335367,
+                                                "longitude": 104.3843
+                                            },
+                                            {
+                                                "latitude": 1.344652,
+                                                "longitude": 104.394278
+                                            },
+                                            {
+                                                "latitude": 1.344652,
+                                                "longitude": 104.394278
+                                            },
+                                            {
+                                                "latitude": 1.383,
+                                                "longitude": 104.438983
+                                            },
+                                            {
+                                                "latitude": 6.510324,
+                                                "longitude": 107.7396
+                                            },
+                                            {
+                                                "latitude": 14.351083,
+                                                "longitude": 113.259194
+                                            },
+                                            {
+                                                "latitude": 15.417439,
+                                                "longitude": 114.011689
+                                            },
+                                            {
+                                                "latitude": 16.542989,
+                                                "longitude": 114.507071
+                                            },
+                                            {
+                                                "latitude": 17.039777,
+                                                "longitude": 114.818921
+                                            },
+                                            {
+                                                "latitude": 22.67402,
+                                                "longitude": 119.5525
+                                            },
+                                            {
+                                                "latitude": 28.567998,
+                                                "longitude": 122.103838
+                                            },
+                                            {
+                                                "latitude": 29.499304,
+                                                "longitude": 122.379987
+                                            },
+                                            {
+                                                "latitude": 29.735012,
+                                                "longitude": 122.328277
+                                            },
+                                            {
+                                                "latitude": 29.750713,
+                                                "longitude": 122.316663
+                                            },
+                                            {
+                                                "latitude": 29.760017,
+                                                "longitude": 122.312019
+                                            },
+                                            {
+                                                "latitude": 29.761433,
+                                                "longitude": 122.310966
+                                            },
+                                            {
+                                                "latitude": 29.7714,
+                                                "longitude": 122.282066
+                                            },
+                                            {
+                                                "latitude": 29.773375,
+                                                "longitude": 122.265046
+                                            },
+                                            {
+                                                "latitude": 29.787914,
+                                                "longitude": 122.264358
+                                            },
+                                            {
+                                                "latitude": 29.798468,
+                                                "longitude": 122.251053
+                                            },
+                                            {
+                                                "latitude": 29.802178,
+                                                "longitude": 122.246722
+                                            },
+                                            {
+                                                "latitude": 29.809908,
+                                                "longitude": 122.237251
+                                            },
+                                            {
+                                                "latitude": 29.826809,
+                                                "longitude": 122.21711
+                                            },
+                                            {
+                                                "latitude": 29.842251,
+                                                "longitude": 122.206886
+                                            },
+                                            {
+                                                "latitude": 29.845062,
+                                                "longitude": 122.207737
+                                            },
+                                            {
+                                                "latitude": 29.852712,
+                                                "longitude": 122.200832
+                                            },
+                                            {
+                                                "latitude": 29.867968,
+                                                "longitude": 122.194771
+                                            },
+                                            {
+                                                "latitude": 29.873982,
+                                                "longitude": 122.186631
+                                            },
+                                            {
+                                                "latitude": 29.899567,
+                                                "longitude": 122.175697
+                                            },
+                                            {
+                                                "latitude": 29.908188,
+                                                "longitude": 122.159096
+                                            },
+                                            {
+                                                "latitude": 29.922583,
+                                                "longitude": 122.141746
+                                            },
+                                            {
+                                                "latitude": 29.923166,
+                                                "longitude": 122.139503
+                                            },
+                                            {
+                                                "latitude": 29.9196,
+                                                "longitude": 122.1276
+                                            },
+                                            {
+                                                "latitude": 29.921101,
+                                                "longitude": 122.10228
+                                            },
+                                            {
+                                                "latitude": 29.932334,
+                                                "longitude": 122.094388
+                                            },
+                                            {
+                                                "latitude": 29.929669,
+                                                "longitude": 122.083661
+                                            },
+                                            {
+                                                "latitude": 29.931095,
+                                                "longitude": 122.080703
+                                            },
+                                            {
+                                                "latitude": 29.93,
+                                                "longitude": 122.08
+                                            }
+                                        ],
+                                        "routingPoints": [
+                                            {
+                                                "name": "JWLAAGPakistan",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 0.0,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": true,
+                                                "distance": 622.17,
+                                                "heading": 104.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 26.4479541778564,
+                                                    "longitude": 56.3607749938965
+                                                }
+                                            },
+                                            {
+                                                "name": "JWLASomalia",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 462.91,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 524.71,
+                                                "heading": 135.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 23.0576515197754,
+                                                    "longitude": 59.9654998779297
+                                                }
+                                            },
+                                            {
+                                                "name": "MalaccaStrait",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 3419.7,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 33.49,
+                                                "heading": 140.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 3.05306696891785,
+                                                    "longitude": 100.58553314209
+                                                }
+                                            },
+                                            {
+                                                "name": "CorridorSingaporeIn",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 3632.53,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 0.0,
+                                                "heading": 0.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 1.43131303787231,
+                                                    "longitude": 103.123611450195
+                                                }
+                                            },
+                                            {
+                                                "name": "CorridorSingaporeIn",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 3650.14,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 26.27,
+                                                "heading": 129.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 1.27139699459076,
+                                                    "longitude": 103.305755615234
+                                                }
+                                            },
+                                            {
+                                                "name": "SingaporeStrait",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 3655.65,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 72.56,
+                                                "heading": 119.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 1.18152701854706,
+                                                    "longitude": 103.422737121582
+                                                }
+                                            },
+                                            {
+                                                "name": "CorridorSingaporeOut",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 3681.91,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 46.41,
+                                                "heading": 69.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 1.20601999759674,
+                                                    "longitude": 103.887474060059
+                                                }
+                                            },
+                                            {
+                                                "name": "SouthChinaSea",
+                                                "delay": "00:00:00",
+                                                "distanceFromRouteStart": 4671.46,
+                                                "hra": false,
+                                                "seca": false,
+                                                "jwla": false,
+                                                "distance": 73.41,
+                                                "heading": 22.0,
+                                                "editable": false,
+                                                "shown": false,
+                                                "coordinates": {
+                                                    "latitude": 16.542989730835,
+                                                    "longitude": 114.50707244873
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": false
+                        },
+                        {
+                            "id": "E",
+                            "type": "discharge",
+                            "arrivalTime": "2025-12-11T10:23:48.4799998+00:00",
+                            "sailingTime": "2025-12-13T13:23:48.4799998+00:00",
+                            "autoGenerated": false,
+                            "distance": 0,
+                            "duration": {
+                                "totalDays": 0.0,
+                                "weatherDelayPercentage": 0.0,
+                                "totalSecaDays": 0.0,
+                                "totalNonSecaDays": 0.0,
+                                "laytime": 42.0,
+                                "rate": 154285,
+                                "turnTime": 9.0,
+                                "extraTime": 0.0,
+                                "demurrageDays": 0.0,
+                                "idleTime": 0.0,
+                                "isCalculatedByRate": false,
+                                "termsFactor": 1.00000000,
+                                "termsOrder": 1.0,
+                                "terms": "SHINC",
+                                "termsDescription": "Sundays and holidays included",
+                                "totalTime": 51.0,
+                                "totalTimeInDays": 2.125,
+                                "quantityForOperation": 270000.0,
+                                "cargoTransferRateUnit": 1
+                            },
+                            "portId": 3302,
+                            "name": "Ningbo",
+                            "geoAsset": {
+                                "parentPort": {
+                                    "id": 3302,
+                                    "name": "Ningbo"
+                                }
+                            },
+                            "openDate": "0001-01-01T00:00:00Z",
+                            "country": {
+                                "id": 55,
+                                "name": "China"
+                            },
+                            "location": {
+                                "latitude": 29.92816,
+                                "longitude": 122.08351
+                            },
+                            "canals": [],
+                            "stopReason": "None",
+                            "isHistorical": false
+                        }
+                    ]
+                }
+            }
+        },
+        "9371749": null,
+        "1038884": null,
+        "9625968": null,
+        "9761475": null,
+        "9406178": null,
+        "9933640": null,
+        "9322293": null,
+        "9411953": null,
+        "9779616": null,
+        "9480837": null,
+        "9689976": null,
+        "9816335": null,
+        "9389899": null,
+        "9826110": null,
+        "9629366": null
+    },
+    "defaultParameters": {
+        "dischargePortId": 3302,
+        "flatRate": 21.217148,
+        "rateType": "WS",
+        "wsRate": 105.0,
+        "rateValue": 105.0,
+        "quantity": 270000.0,
+        "commission": 0.0375,
+        "laytime": 84.0,
+        "ladenWeatherDelaysAtSeaPercentage": 0.1,
+        "demurrageRate": 115000.0,
+        "otherIncome": 0.0,
+        "otherExpenses": 0.0,
+        "ladenSpeed": 13.0,
+        "useHsfoForScrubbers": true,
+        "bunkerRates": [
+            {
+                "price": 722.43,
+                "type": "MGO"
+            },
+            {
+                "price": 453.56,
+                "type": "VLSFO"
+            },
+            {
+                "price": 356.57,
+                "type": "HSFO"
+            }
+        ],
+        "portTimeDetails": {
+            "loadLaytime": 42.0,
+            "loadRate": 0,
+            "loadTurnTime": 9.0,
+            "loadExtraTime": 0.0,
+            "dischargeLaytime": 42.0,
+            "dischargeRate": 0,
+            "dischargeTurnTime": 9.0,
+            "dischargeExtraTime": 0.0,
+            "isLoadCalulatedByRate": false,
+            "isDischargeCalulatedByRate": false,
+            "isLoadCalculatedByRate": false,
+            "isDischargeCalculatedByRate": false,
+            "loadTermsFactor": 1.00000000,
+            "dischargeTermsFactor": 1.00000000,
+            "loadTermsOrder": 1,
+            "dischargeTermsOrder": 1,
+            "loadTerms": "SHINC",
+            "dischargeTerms": "SHINC",
+            "loadTermsDescription": "Sundays and holidays included",
+            "dischargeTermsDescription": "Sundays and holidays included",
+            "laytime": 84.0,
+            "totalLoadTime": 51.000000000,
+            "totalLoadTimeInDays": 2.125000000,
+            "totalDischargeTime": 51.000000000,
+            "totalDischargeTimeInDays": 2.125000000,
+            "totalPortTime": 102.000000000,
+            "totalPortTimeInDays": 4.250000000,
+            "absoluteLoadTime": 42.000000000,
+            "absoluteDischargeTime": 42.000000000,
+            "absoluteLoadTimeInDays": 1.750000000,
+            "absoluteDischargeTimeInDays": 1.750000000
+        }
+    }
+}

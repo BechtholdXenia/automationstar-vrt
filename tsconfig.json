@@ -9,11 +9,13 @@
     "outDir": "./dist",
     "rootDir": "./",
     "types": [
-      "cypress", "node"
+      "cypress",
+      "node",
+      "@simonsmith/cypress-image-snapshot/types"
     ]
   },
   "include": [
     "cypress/**/*.ts",
-    "cypress/support/index.d.ts"
+    "cypress/support/index.d.ts",
   ]
 }
